@@ -14,6 +14,8 @@ body {
   background: #ECDADA;
   font: 60px/68px 'SortsMillGoudyRegular', Arial, sans-serif;
   letter-spacing: 0;
+  min-height: 480px;
+  min-width: 320px;
 }
 
 .box {
@@ -77,32 +79,23 @@ body {
   box-align: center;
   font-size: 400%;
 }
-/*
+
+.box div form {
   display: -webkit-box;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-pack: center;
   -webkit-box-align: center;
  
   display: -moz-box;
-  -moz-box-orient: horizontal;
+  -moz-box-orient: vertical;
   -moz-box-pack: center;
   -moz-box-align: center;
   
   display: box;
-  box-orient: horizontal;
+  box-orient: vertical;
   box-pack: center;
   box-align: center;
-  */
-  
 
-/* our colors 
-.box > div:nth-child(1) { background: #FCC; }
-.box > div:nth-child(2) { background: #CFC; }
-.box > div:nth-child(3) { background: #CCF; }
-*/
-
-/*
-.box > div:hover {
-  width: 200px;
+  margin-top: 4em;
+  font-size: 40%;
 }
-  */

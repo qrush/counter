@@ -19,6 +19,9 @@ class BodyScaler
 
     @body.css("font-size", "#{fontSize}%")
 
+class Score
+  points: 0
+
 $ ->
   scaler = new BodyScaler()
   scaler.scale()

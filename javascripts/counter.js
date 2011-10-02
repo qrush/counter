@@ -1,5 +1,5 @@
 (function() {
-  var BodyScaler;
+  var BodyScaler, Score;
   var __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; };
   BodyScaler = (function() {
     BodyScaler.prototype.scaleFactor = 0.35;
@@ -21,6 +21,11 @@
       return this.body.css("font-size", "" + fontSize + "%");
     };
     return BodyScaler;
+  })();
+  Score = (function() {
+    function Score() {}
+    Score.prototype.points = 0;
+    return Score;
   })();
   $(function() {
     var scaler;
