@@ -5,3 +5,7 @@ guard 'coffeescript', input: 'javascripts' do
     end
   end
 end
+
+guard 'compass' do
+  watch(%r{^sass/(.*)\.s[ac]ss})
+end
