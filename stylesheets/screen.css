@@ -1,0 +1,32 @@
+.box {
+  /* basic styling */
+  width: 100%;
+  height: 50%;
+
+  /* flexbox setup */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+
+  display: box;
+  box-orient: horizontal;
+}
+
+.box > div {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+}
+
+/* our colors */
+.box > div:nth-child(1) { background: #FCC; }
+.box > div:nth-child(2) { background: #CFC; }
+.box > div:nth-child(3) { background: #CCF; }
+
+/*
+.box > div:hover {
+  width: 200px;
+}
+  */
